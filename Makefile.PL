@@ -2,7 +2,7 @@ use inc::Module::Install;
 name 'vars-declare';
 all_from 'lib/vars/declare.pm';
 
-# requires '';
+requires 'Filter::Simple';
 
 tests 't/*.t';
 author_tests 'xt';
